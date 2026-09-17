@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Go: test all",
+      "type": "shell",
+      "command": "go test ./...",
+      "group": "test",
+      "problemMatcher": "$go"
+    },
+    {
+      "label": "Go: run users service",
+      "type": "shell",
+      "command": "go run ./cmd/users",
+      "isBackground": true,
+      "problemMatcher": "$go"
+    }
+  ]
+}

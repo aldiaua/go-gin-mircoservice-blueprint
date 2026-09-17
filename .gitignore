@@ -1,0 +1,9 @@
+# Environment
+.env
+
+# Build output
+/bin/
+
+# IDE
+.vscode/*
+!.vscode/tasks.json
